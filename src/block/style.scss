@@ -1,0 +1,41 @@
+.wp-block-custom-breadcrumb-breadcrumbs {
+    .custom-breadcrumbs-list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style-type: none;
+        gap: 5px;
+        margin: 0;
+        padding: 0;
+
+        .custom-breadcrumbs-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #9AA0AE;
+            font-family: "Figtree", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            a{
+                color: inherit;
+                font-family: inherit;
+                text-decoration: none;
+            }
+
+            .custom-breadcrumbs-separator {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                svg {
+                    width: 24px;
+                    height: 24px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

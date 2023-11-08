@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "custom-breadcrumb/breadcrumbs",
+	"version": "1.0.0",
+	"title": "Breadcrumb",
+	"category": "theme",
+	"description": "custom-breadcrumb Block",
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"svg": {
+			"type": "string"
+		},
+		"isShowIcon": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"textdomain": "custom-breadcrumb",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
