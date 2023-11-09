@@ -28,6 +28,6 @@
 	"textdomain": "custom-breadcrumb",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css",
+	"style": ["file:./style-index.css", "google-fonts"],
 	"render": "file:./render.php"
 }
